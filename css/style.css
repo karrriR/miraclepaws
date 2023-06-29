@@ -1,0 +1,3177 @@
+@font-face {
+  font-family: "Comfortaa bold";
+  src: url("../fonts/Comfortaa/static/Comfortaa-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Manrope extrabold";
+  src: url("../fonts/Manrope/static/Manrope-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Manrope bold";
+  src: url("../fonts/Manrope/static/Manrope-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Manrope semibold";
+  src: url("../fonts/Manrope/static/Manrope-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Exo2 light";
+  src: url("../fonts/Exo_2/static/Exo2-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Exo2 regular";
+  src: url("../fonts/Exo_2/static/Exo2-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Exo2 medium";
+  src: url("../fonts/Exo_2/static/Exo2-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Exo2 bold";
+  src: url("../fonts/Exo_2/static/Exo2-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Exo2 semibold";
+  src: url("../fonts/Exo_2/static/Exo2-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "AmaticSC regular";
+  src: url("../fonts/Amatic_SC/AmaticSC-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+.section-card-pets_button, .section-miracle-paws_button-two, .section-miracle-paws_button, .section-reports_button-two, .section-reports_button, .section-help_button, .section-four_button, .section-three_button, .section-two_button, .intro_button {
+  border: none;
+  border-radius: 50px;
+  display: flex;
+  padding: 24px 55px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.form-volunteering_link, .form-adoption_link, .form-authorization_link, .form-registr_link, .section-card-pets_link, .section-miracle-paws_link-two, .section-miracle-paws_link, .section-reports_link, .section-help_link, .section-four_link, .section-three_link, .section-two_link, .intro_link {
+  font-family: "Comfortaa bold";
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 27px;
+}
+
+.section-miracle-paws_slide, .graduates-box_slide, .section-three_slide {
+  box-shadow: 0px 9px 17px rgba(0, 0, 0, 0.15);
+  max-width: 260px;
+  height: 334px;
+  border-radius: 20px;
+  background: #FFFFFF;
+}
+
+.form-volunteering_title, .form-adoption_title, .form-authorization_title, .form-registr_title, .section-profile_title, .section-miracle-paws_title, .section-contacts_title, .section-help_title, .section-faq_title, .graduates-box_title, .intro_title {
+  font-family: "Manrope extrabold";
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 87px;
+  color: rgb(0, 0, 0);
+}
+
+.section-card-pets_title, .section-routes_title, .section-reports_title, .section-current-needs_title, .section-ways-help_title, .section-help_requisites-title, .section-faq_name-two, .section-faq_name {
+  font-family: "Manrope extrabold";
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+  color: rgb(0, 0, 0);
+}
+
+.section-five_title, .section-four_title, .section-three_title, .section-two_title, .section-one_title {
+  font-family: "Manrope extrabold";
+  font-weight: 800;
+  font-size: 46px;
+  line-height: 63px;
+  color: rgb(0, 0, 0);
+}
+
+.form-volunteering_input-box input, .form-adoption_input-box textarea, .form-adoption_input-box input, .form-authorization_input-box input, .form-registr_input-box input {
+  width: 403px;
+  height: 54px;
+  background: rgba(242, 232, 204, 0.6);
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 15px;
+  font-family: "Exo2 regular";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 148%;
+  color: rgb(0, 0, 0);
+  padding-left: 35px;
+}
+
+.form-volunteering_button-volunteering, .form-adoption_button-adoption, .form-authorization_button-authorization, .form-registr_button-registr {
+  border: none;
+  width: 438px;
+  border-radius: 20px;
+  display: flex;
+  padding: 18px 96px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #DE3891;
+  margin: 20px auto 19px auto;
+}
+
+.form-authorization_registr, .form-registr_autoriz {
+  font-family: "Exo2 medium";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 148%;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.form-volunteering_block, .form-adoption_block, .form-authorization_block, .form-registr_block {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.7);
+  z-index: 5;
+  border-radius: 20px;
+  width: 602px;
+}
+
+.section-four_age, .section-four_name, .section-two_age, .section-two_name, .intro_age, .intro_name {
+  font-family: "AmaticSC regular";
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.section-five_description-new, .section-four_description-method, .intro_text {
+  font-family: "Exo2 light";
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+}
+
+.volunteers-box_text, #modal-message p, .section-card-pets_description-text, .section-card-pets_data-text, .section-profile_animals-data, .section-profile_information-text, .section-profile_data-text, .section-miracle-paws_description, .section-miracle-paws_label, .section-miracle-paws_range, .section-miracle-paws_number, .section-miracle-paws_filter-text, .section-routes_text, .section-contacts_time-work, .section-contacts_contact-text, .section-reports_text, .section-current-needs_list-product, .section-current-needs_text, .section-ways-help_description-way, .section-help_card-number, .section-faq_answer, .graduates-box_description, .footer_section-text, .footer_section-link, .section-four_text, .section-three_description, .section-two_text, .section-one_text {
+  font-family: "Exo2 regular";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 148%;
+  color: rgb(0, 0, 0);
+}
+
+.volunteers-box_title, .error, .create-table_link, .create-table_button, .create-table_label, .table_name-row, .section-admin_table-title, .section-admin_requests-title, .section-card-pets_data-title, .section-profile_information-title, .section-profile_data-title, .section-miracle-paws_name, .section-miracle-paws_parameter-name, .section-routes_name, .section-contacts_contact-title, .section-current-needs_name, .section-ways-help_name-way, .section-help_choice, .section-faq_question, .graduates-box_name, .section-five_name-new, .section-four_name-method, .section-three_name, .main-menu_link {
+  font-family: "Comfortaa bold";
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  line-height: 22px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  max-width: 1374px;
+  margin: 0 auto;
+}
+
+.container-main {
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.container-admin {
+  width: 100%;
+  height: 100%;
+  max-width: 1570px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  background: url("../img/backgrounds/background_Lola.png") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.header-one {
+  width: 100%;
+  height: 806px;
+  background: url("../img/backgrounds/background_one.png") no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.header-two {
+  width: 100%;
+  height: 806px;
+  background: url("../img/backgrounds/background_two.png") no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.header-three {
+  width: 100%;
+  height: 806px;
+  background: url("../img/backgrounds/background_three.png") no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.header-help {
+  width: 100%;
+  height: 806px;
+  background: url("../img/backgrounds/background_four.png") no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.header-contacts {
+  width: 100%;
+  height: 806px;
+  background: url("../img/backgrounds/background_five.png") no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.header-profile {
+  width: 100%;
+  height: 806px;
+  background: url("../img/backgrounds/background_six.png") no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.header-admin {
+  width: 100%;
+  height: 806px;
+}
+
+.main-menu {
+  margin-top: 27px;
+}
+.main-menu_wr {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 855px;
+}
+.main-menu_wrapper {
+  list-style-type: none;
+}
+.main-menu_centerbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.main-menu_link {
+  text-decoration: none;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+}
+.intro_box {
+  margin-top: 276px;
+  margin-left: 364px;
+}
+.intro_text {
+  font-size: 22px;
+  line-height: 32px;
+  width: 593px;
+  margin-top: 29px;
+  margin-bottom: 39px;
+}
+.intro_button {
+  background-color: #DE3891;
+}
+.intro_link {
+  color: #FFFFFF;
+}
+.intro_image-box {
+  display: flex;
+}
+.intro_image {
+  margin-top: -15px;
+}
+.intro_name-box {
+  text-align: center;
+  position: absolute;
+  margin-left: 560px;
+  margin-top: 80px;
+}
+.intro_name {
+  font-size: 70px;
+  line-height: 120.6%;
+}
+.intro_age {
+  font-size: 40px;
+  line-height: 157.6%;
+}
+.intro_arrow {
+  margin-top: 6px;
+  margin-right: 30px;
+}
+
+.section-one {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 116px;
+}
+.section-one_about-us-box {
+  margin-top: 135px;
+  margin-left: 364px;
+}
+.section-one_text {
+  width: 701px;
+  margin-top: 41px;
+}
+.section-one_image-box {
+  margin-right: 85px;
+  margin-top: 68px;
+}
+
+.section-two {
+  width: 100%;
+  background: url("../img/backgrounds/background_Pirat.png") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.section-two_main-box {
+  display: flex;
+  justify-content: space-between;
+}
+.section-two_image-box {
+  display: flex;
+  margin-left: 150px;
+}
+.section-two_title {
+  color: #FFFFFF;
+  text-align: right;
+}
+.section-two_text {
+  width: 579px;
+  color: #FFFFFF;
+  margin-top: 41px;
+  text-align: right;
+  margin-bottom: 39px;
+}
+.section-two_button {
+  background-color: #F2E8CC;
+  float: right;
+}
+.section-two_link {
+  color: rgb(0, 0, 0);
+}
+.section-two_mission-box {
+  margin-right: 364px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.section-two_image {
+  position: absolute;
+  margin-top: -70px;
+}
+.section-two_name-box {
+  text-align: center;
+  position: absolute;
+  margin-top: 138px;
+}
+.section-two_name {
+  font-size: 70px;
+  line-height: 120.6%;
+  color: #FFFFFF;
+}
+.section-two_age {
+  font-size: 40px;
+  line-height: 157.6%;
+  color: #FFFFFF;
+}
+.section-two_arrow {
+  margin-top: 6px;
+  margin-left: 30px;
+}
+
+.section-three {
+  margin-top: 143px;
+  margin-bottom: 150px;
+}
+.section-three_slide {
+  margin-left: 30px;
+}
+.section-three_description-box {
+  margin-top: 28px;
+  margin-left: 37px;
+}
+.section-three_title {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.section-three_name {
+  font-size: 22px;
+  line-height: 25px;
+  margin-bottom: 5px;
+}
+.section-three_description {
+  margin-bottom: 29px;
+}
+.section-three_image {
+  border-radius: 20px 20px 0 0;
+}
+.section-three_container {
+  max-width: 1175px;
+  overflow: hidden;
+  margin: 0 auto;
+  justify-content: center;
+}
+.section-three_arrow-box {
+  display: flex;
+  max-width: 1518px;
+  margin: 0 auto;
+  align-items: center;
+}
+.section-three_button-r, .section-three_button-l {
+  width: 44px;
+  height: 44px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  opacity: 1;
+}
+.section-three_wrapper {
+  width: 2170px;
+  height: 360px;
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 0.5s;
+}
+.section-three_button {
+  background-color: #99BD05;
+  margin: 60px auto 0 auto;
+}
+.section-three_link {
+  color: #FFFFFF;
+}
+.section-three_slide-link {
+  text-decoration: none;
+}
+
+.section-four {
+  width: 100%;
+  background: url("../img/backgrounds/background_Fishka.png") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.section-four_main-box {
+  display: flex;
+  justify-content: space-between;
+}
+.section-four_image-box {
+  display: flex;
+}
+.section-four_text {
+  width: 764px;
+  margin-top: 41px;
+  margin-bottom: 39px;
+}
+.section-four_button {
+  background-color: #DE3891;
+}
+.section-four_link {
+  color: #FFFFFF;
+}
+.section-four_help-box {
+  margin-left: 364px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.section-four_image {
+  position: absolute;
+  margin-left: -630px;
+  margin-top: -60px;
+}
+.section-four_name-box {
+  text-align: center;
+  margin-top: 138px;
+  margin-right: 50px;
+}
+.section-four_name {
+  font-size: 70px;
+  line-height: 120.6%;
+}
+.section-four_age {
+  font-size: 40px;
+  line-height: 157.6%;
+}
+.section-four_arrow {
+  margin-top: 6px;
+  margin-right: 30px;
+}
+.section-four_method {
+  width: 289px;
+  height: 138px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  margin-bottom: 18px;
+  margin-right: 18px;
+}
+.section-four_name-method {
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 9px;
+  padding-top: 24px;
+  padding-left: 24px;
+}
+.section-four_description-method {
+  font-size: 14px;
+  line-height: 148%;
+  width: 240px;
+  padding-left: 24px;
+}
+.section-four_methods-box {
+  max-width: 921px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+.section-four_button-box {
+  display: flex;
+  justify-content: center;
+  width: 921px;
+}
+
+.section-five {
+  margin-top: 143px;
+  margin-bottom: 243px;
+}
+.section-five_name-new {
+  font-size: 24px;
+  line-height: 27px;
+  width: 421px;
+}
+.section-five_description-new {
+  font-size: 18px;
+  line-height: 148%;
+  width: 458px;
+  margin-top: 19px;
+  margin-bottom: 14px;
+}
+.section-five_data-new {
+  font-family: "Exo2 medium";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 148%;
+  color: #DE3891;
+}
+.section-five_new-box {
+  display: flex;
+  align-items: center;
+  width: 1192px;
+  height: 447px;
+  border-radius: 20px;
+  box-shadow: 0px 9px 17px rgba(0, 0, 0, 0.15);
+}
+.section-five_new {
+  padding: 0 69px;
+}
+.section-five_image {
+  border-radius: 0 20px 20px 0;
+}
+.section-five_image-two {
+  border-radius: 20px 0 0 20px;
+}
+.section-five_news-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.section-five_title {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.section-five_new-box:nth-child(1) {
+  margin-bottom: 49px;
+}
+
+.footer {
+  width: 100%;
+  background: url("../img/backgrounds/background_footer.png") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.footer_box {
+  padding: 56px 0 115px 222px;
+}
+.footer_logo-box {
+  margin-bottom: 65px;
+}
+.footer_section-title {
+  font-family: "Manrope semibold";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.footer_section-list {
+  list-style-type: none;
+  margin-bottom: 12px;
+  width: 190px;
+}
+.footer_section-link {
+  color: #F2E8CC;
+  text-decoration: none;
+}
+.footer_section-text {
+  color: #F2E8CC;
+  width: 211px;
+  margin-bottom: 12px;
+}
+.footer_menu-box {
+  display: flex;
+}
+.footer_sections {
+  margin: 0 120px;
+}
+.footer_section-address {
+  margin-top: 20px;
+}
+.footer_social-box {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.footer_social-img:nth-child(2) {
+  margin: 0 28px;
+}
+
+.section-graduates {
+  position: relative;
+  margin-top: -720px;
+}
+
+.graduates-box_title {
+  text-align: center;
+  margin: 183px 0 125px 0;
+}
+.graduates-box_cards {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-bottom: 246px;
+}
+.graduates-box_slide {
+  margin-right: 14px;
+  margin-bottom: 35px;
+}
+.graduates-box_description-box {
+  margin-top: 28px;
+  margin-left: 37px;
+}
+.graduates-box_name {
+  font-size: 22px;
+  line-height: 25px;
+  margin-bottom: 5px;
+}
+.graduates-box_description {
+  margin-bottom: 29px;
+}
+.graduates-box_image {
+  border-radius: 20px 20px 0 0;
+}
+
+.section-faq {
+  position: relative;
+  margin-top: -720px;
+}
+.section-faq_title {
+  text-align: center;
+  margin: 183px 0 125px 0;
+}
+.section-faq_box {
+  display: flex;
+}
+.section-faq_name {
+  width: 346px;
+  padding-bottom: 15px;
+  border-bottom: 4px solid #DE3891;
+}
+.section-faq_name-two {
+  width: 210px;
+  padding-bottom: 15px;
+  border-bottom: 4px solid #DE3891;
+}
+.section-faq_name-box {
+  margin-right: 124px;
+}
+.section-faq_name-box-two {
+  margin-right: 260px;
+}
+.section-faq_question-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  width: 905px;
+  height: 94px;
+  box-shadow: 0px 20px 29px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+.section-faq_question {
+  margin-left: 52px;
+}
+.section-faq_arrow {
+  margin-right: 52px;
+  cursor: pointer;
+  transition: transform 0.5s ease-in;
+}
+.section-faq_answer-box {
+  margin-top: 12px;
+  margin-bottom: 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1.4s ease;
+}
+
+.section-faq_faq-box.active .section-faq_answer-box {
+  max-height: 700px;
+}
+
+.section-faq_faq-box.active svg {
+  transform: rotate(180deg);
+}
+
+.faq-box-two {
+  margin-top: 68px;
+  margin-bottom: 249px;
+}
+
+.section-help {
+  position: relative;
+  margin-top: -720px;
+}
+.section-help_title {
+  text-align: center;
+  margin: 183px 0 125px 0;
+}
+.section-help_requisites-title {
+  text-align: center;
+}
+.section-help_card-box {
+  width: 571px;
+  height: 130px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 20px 29px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  margin: 40px auto 27px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-help_card-number {
+  width: 373px;
+  text-align: center;
+}
+.section-help_number {
+  font-family: "Exo2 bold";
+  font-weight: 700;
+}
+.section-help_choice {
+  text-align: center;
+}
+.section-help_button {
+  background-color: #DE3891;
+  margin: 27px auto 0 auto;
+}
+.section-help_link {
+  color: #FFFFFF;
+}
+.section-help_requisites-box {
+  margin-bottom: 105px;
+}
+
+.section-ways-help_title {
+  text-align: center;
+}
+.section-ways-help_name-way {
+  font-size: 18px;
+  line-height: 20px;
+}
+.section-ways-help_description-way {
+  font-size: 16px;
+  width: 281px;
+  margin-top: 17px;
+}
+.section-ways-help_way-box {
+  display: flex;
+  align-items: center;
+  width: 662px;
+  height: 292px;
+  border-radius: 20px;
+  box-shadow: 0px 9px 17px rgba(0, 0, 0, 0.15);
+  margin-bottom: 40px;
+}
+.section-ways-help_way {
+  padding: 0 33px;
+}
+.section-ways-help_image {
+  border-radius: 20px 0 0 20px;
+}
+.section-ways-help_ways-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 80px 0 150px 0;
+}
+
+.section-current-needs {
+  width: 100%;
+  background: url("../img/backgrounds/background_current_needs.png") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+}
+.section-current-needs_title {
+  text-align: center;
+  margin-top: 80px;
+}
+.section-current-needs_text {
+  width: 1201px;
+  text-align: center;
+  margin: 32px auto;
+}
+.section-current-needs_name {
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 29px;
+  text-align: center;
+}
+.section-current-needs_list-product {
+  font-size: 14px;
+  line-height: 148%;
+  width: 264px;
+}
+.section-current-needs_need_box {
+  border-radius: 20px;
+  background: #FFFFFF;
+  width: 333px;
+  padding: 37px 0;
+}
+.section-current-needs_list {
+  margin-left: 50px;
+}
+.section-current-needs_need-boxx {
+  height: 474px;
+  width: 333px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.section-current-needs_needs-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 99px;
+}
+
+.section-reports_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 120px auto 220px auto;
+}
+.section-reports_title {
+  margin-bottom: 32px;
+}
+.section-reports_text {
+  width: 902px;
+}
+.section-reports_button-box {
+  width: 289px;
+}
+.section-reports_button {
+  background-color: #99BD05;
+  margin: 0 auto 28px auto;
+}
+.section-reports_button-two {
+  background-color: #236130;
+  margin: 0 auto;
+}
+.section-reports_link {
+  color: #FFFFFF;
+}
+
+.section-contacts {
+  position: relative;
+  margin-top: -720px;
+}
+.section-contacts_title {
+  text-align: center;
+  margin: 183px 0 116px 0;
+}
+.section-contacts_contact {
+  width: 662px;
+  height: 325px;
+  box-shadow: 0px 20px 29px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-contacts_contact-title {
+  font-size: 24px;
+  line-height: 27px;
+  text-align: center;
+}
+.section-contacts_contact-text {
+  width: 545px;
+  text-align: center;
+  margin: 20px auto 0 auto;
+}
+.section-contacts_social-network {
+  width: 135px;
+  height: 80px;
+  border-radius: 20px;
+  background-color: #DE3891;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-contacts_icon-box {
+  text-align: center;
+  text-decoration: none;
+}
+.section-contacts_icon-img {
+  margin-bottom: 5px;
+}
+.section-contacts_social-network-name {
+  font-family: "Exo2 semibold";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 148%;
+  color: #FFFFFF;
+}
+.section-contacts_social-network-box {
+  display: flex;
+  width: 342px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 28px auto 0 auto;
+}
+.section-contacts_weekday {
+  font-family: "Exo2 semibold";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 148%;
+  color: #FFFFFF;
+}
+.section-contacts_time-work {
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.section-contacts_contact-box {
+  display: flex;
+  justify-content: space-between;
+}
+.section-contacts_work-mode {
+  margin-top: 25px;
+}
+
+.section-routes {
+  margin: 122px auto 255px auto;
+}
+.section-routes_title {
+  margin-bottom: 95px;
+  text-align: center;
+}
+.section-routes_route {
+  text-align: center;
+}
+.section-routes_name {
+  font-size: 24px;
+  line-height: 27px;
+  margin-top: 36px;
+  margin-bottom: 25px;
+}
+.section-routes_text {
+  width: 386px;
+  margin: 0 auto;
+}
+.section-routes_route-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-miracle-paws {
+  position: relative;
+  margin-top: -720px;
+}
+.section-miracle-paws_title {
+  text-align: center;
+  margin: 183px 0 125px 0;
+}
+.section-miracle-paws_filter-box {
+  width: 470px;
+  height: 743px;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 20px 29px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-miracle-paws_filter {
+  text-align: center;
+}
+.section-miracle-paws_filter-title {
+  font-family: "Manrope bold";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: rgb(0, 0, 0);
+}
+.section-miracle-paws_filter-text {
+  width: 358px;
+  margin: 19px auto 4px auto;
+}
+.section-miracle-paws_parameter-name {
+  margin: 24px auto 18px auto;
+}
+.section-miracle-paws_parameter-box {
+  display: flex;
+  justify-content: space-between;
+  width: 244px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+}
+.section-miracle-paws_parameter-boxx {
+  width: 244px;
+  margin: 0 auto;
+}
+.section-miracle-paws_range-number {
+  width: 244px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.section-miracle-paws_range {
+  width: 244px;
+  height: 25px;
+  border-radius: 20px;
+  border: 1px solid black;
+  text-align: center;
+}
+.section-miracle-paws_parameter {
+  display: flex;
+  align-items: center;
+}
+.section-miracle-paws_label {
+  margin-left: 10px;
+}
+.section-miracle-paws_checkbox {
+  margin-bottom: 10px;
+}
+.section-miracle-paws_button {
+  background-color: #DE3891;
+  margin: 30px auto 30px auto;
+}
+.section-miracle-paws_button-two {
+  background: none;
+  margin: 0 auto;
+  padding: 0 0;
+}
+.section-miracle-paws_link {
+  color: #FFFFFF;
+}
+.section-miracle-paws_link-two {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  line-height: 18px;
+}
+.section-miracle-paws_slide {
+  margin-right: 24px;
+  margin-bottom: 40px;
+}
+.section-miracle-paws_description-box {
+  margin-top: 28px;
+  margin-left: 37px;
+}
+.section-miracle-paws_name {
+  font-size: 22px;
+  line-height: 25px;
+  margin-bottom: 5px;
+}
+.section-miracle-paws_description {
+  margin-bottom: 29px;
+}
+.section-miracle-paws_image {
+  border-radius: 20px 20px 0 0;
+}
+.section-miracle-paws_slide-link {
+  text-decoration: none;
+}
+.section-miracle-paws_katalog-pets {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  width: 852px;
+}
+.section-miracle-paws_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 236px;
+}
+
+.section-miracle-paws_parameter input {
+  width: 18px;
+  height: 18px;
+}
+
+.section-profile {
+  position: relative;
+  margin-top: -720px;
+}
+.section-profile_title {
+  text-align: center;
+  margin: 183px 0 116px 0;
+}
+.section-profile_image {
+  width: 236px;
+  height: 236px;
+  border-radius: 50%;
+  margin: 65px auto 51px auto;
+}
+.section-profile_personal-data-box {
+  display: flex;
+  justify-content: center;
+  width: 520px;
+  height: 696px;
+  box-shadow: 0px 20px 29px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  background-color: #FFFFFF;
+}
+.section-profile_data-box {
+  width: 393px;
+}
+.section-profile_data {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.section-profile_data-title {
+  font-size: 24px;
+  line-height: 27px;
+  margin-right: 34px;
+}
+.section-profile_data-text {
+  font-size: 20px;
+}
+.section-profile_personal-data {
+  text-align: center;
+}
+.section-profile_additional-information-box {
+  width: 781px;
+  box-shadow: 0px 20px 29px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  padding-top: 37px;
+  padding-bottom: 66px;
+  display: none;
+}
+.section-profile_additional-information-title {
+  font-family: "Manrope bold";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.section-profile_information-box {
+  margin: 39px 0 0 94px;
+}
+.section-profile_information-text {
+  font-size: 20px;
+  margin-top: 15px;
+}
+.section-profile_information {
+  margin-top: 26px;
+}
+.section-profile_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 262px;
+}
+.section-profile_adopted-animals-box, .section-profile_submitted-applications-box {
+  width: 781px;
+  box-shadow: 0px 20px 29px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  padding-top: 37px;
+  padding-bottom: 70px;
+  margin-bottom: 38px;
+}
+.section-profile_adopted-animals-title, .section-profile_submitted-applications-title {
+  font-family: "Manrope bold";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.section-profile_animals-box {
+  margin-top: 39px;
+  margin-left: 94px;
+}
+.section-profile_animals-data {
+  font-size: 20px;
+  color: #DE3891;
+}
+
+.section-card-pets {
+  margin: 171px auto 255px auto;
+}
+.section-card-pets_slider {
+  width: 565px;
+  height: 547px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.section-card-pets_slider-line {
+  width: 1695px;
+  height: 547px;
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 0.5s;
+}
+.section-card-pets_img {
+  width: 565px;
+  height: auto;
+}
+.section-card-pets_scroll {
+  position: relative;
+  margin-top: -300px;
+  width: 509px;
+  display: flex;
+  justify-content: space-between;
+  margin: -300px auto 0 auto;
+}
+.section-card-pets_button-left, .section-card-pets_button-right {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.section-card-pets_box-card {
+  display: flex;
+}
+.section-card-pets_box {
+  display: flex;
+}
+.section-card-pets_parameters-box {
+  margin-left: 193px;
+}
+.section-card-pets_title {
+  font-size: 46px;
+  line-height: 63px;
+}
+.section-card-pets_data {
+  display: flex;
+  margin-bottom: 25px;
+}
+.section-card-pets_data-title {
+  font-size: 24px;
+  line-height: 27px;
+  margin-right: 34px;
+}
+.section-card-pets_data-text {
+  font-size: 20px;
+}
+.section-card-pets_parameters {
+  margin: 70px 0 50px 0;
+}
+.section-card-pets_button {
+  background-color: #DE3891;
+}
+.section-card-pets_link {
+  color: #FFFFFF;
+}
+.section-card-pets_description-box {
+  margin-top: 70px;
+}
+.section-card-pets_description-title {
+  font-family: "Manrope bold";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 35px;
+}
+.form-registr_block {
+  background: url("../img/backgrounds/background_registr.png") no-repeat;
+  background-position: center center;
+  height: 786px;
+}
+.form-registr_button-box {
+  width: 602px;
+  display: flex;
+  justify-content: end;
+}
+.form-registr_button {
+  background: none;
+  margin-top: 16px;
+  margin-right: 18px;
+  border: none;
+  cursor: pointer;
+}
+.form-registr_main {
+  margin-top: 4px;
+}
+.form-registr_title {
+  font-size: 40px;
+  line-height: 55px;
+  text-align: center;
+  margin-bottom: 55px;
+}
+.form-registr_input-box input:focus {
+  background: #DE3891;
+  color: #FFFFFF;
+  outline: 0;
+  outline-offset: 0;
+}
+.form-registr_input-box input:focus::-moz-placeholder {
+  color: #FFFFFF;
+}
+.form-registr_input-box input:focus::placeholder {
+  color: #FFFFFF;
+}
+.form-registr_input-box {
+  text-align: center;
+}
+.form-registr_link {
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 22px;
+}
+::-moz-placeholder {
+  font-family: "Exo2 medium";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 148%;
+  color: rgba(0, 0, 0, 0.7);
+}
+::placeholder {
+  font-family: "Exo2 medium";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 148%;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.b-show {
+  display: block;
+  animation: animate 1s linear forwards;
+}
+
+.b-show-two {
+  display: block;
+  animation: animate 1s linear forwards;
+}
+
+.b-show-three {
+  display: block;
+  animation: animate 1s linear forwards;
+}
+
+.b-show-four {
+  display: block;
+  animation: animate 1s linear forwards;
+}
+
+.form-authorization_block {
+  background: url("../img/backgrounds/background_autoriz.png") no-repeat;
+  background-position: center center;
+  height: 510px;
+}
+.form-authorization_button-box {
+  width: 602px;
+  display: flex;
+  justify-content: end;
+}
+.form-authorization_button {
+  background: none;
+  margin-top: 16px;
+  margin-right: 18px;
+  border: none;
+  cursor: pointer;
+}
+.form-authorization_main {
+  margin-top: 4px;
+}
+.form-authorization_title {
+  font-size: 40px;
+  line-height: 55px;
+  text-align: center;
+  margin-bottom: 55px;
+}
+.form-authorization_input-box input:focus {
+  background: #DE3891;
+  color: #FFFFFF;
+  outline: 0;
+  outline-offset: 0;
+}
+.form-authorization_input-box input:focus::-moz-placeholder {
+  color: #FFFFFF;
+}
+.form-authorization_input-box input:focus::placeholder {
+  color: #FFFFFF;
+}
+.form-authorization_input-box {
+  text-align: center;
+}
+.form-authorization_link {
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 22px;
+}
+.form-adoption_block {
+  background: url("../img/backgrounds/background_adoption.png") no-repeat;
+  background-position: center center;
+  height: 705px;
+}
+.form-adoption_button-box {
+  width: 602px;
+  display: flex;
+  justify-content: end;
+}
+.form-adoption_button {
+  background: none;
+  margin-top: 16px;
+  margin-right: 18px;
+  border: none;
+  cursor: pointer;
+}
+.form-adoption_main {
+  margin-top: 4px;
+}
+.form-adoption_title {
+  font-size: 40px;
+  line-height: 55px;
+  text-align: center;
+  margin-bottom: 55px;
+}
+.form-adoption_input-box input:focus {
+  background: #DE3891;
+  color: #FFFFFF;
+  outline: 0;
+  outline-offset: 0;
+}
+.form-adoption_input-box input:focus::-moz-placeholder {
+  color: #FFFFFF;
+}
+.form-adoption_input-box input:focus::placeholder {
+  color: #FFFFFF;
+}
+.form-adoption_input-box {
+  text-align: center;
+}
+.form-adoption_link {
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 22px;
+}
+.form-adoption_input-box textarea {
+  height: 90px;
+  padding-top: 12px;
+  resize: none;
+}
+.form-adoption_input-box textarea:focus {
+  background: #DE3891;
+  color: #FFFFFF;
+  outline: 0;
+  outline-offset: 0;
+}
+.form-adoption_input-box textarea:focus::-moz-placeholder {
+  color: #FFFFFF;
+}
+.form-adoption_input-box textarea:focus::placeholder {
+  color: #FFFFFF;
+}
+
+.form-volunteering_block {
+  background: url("../img/backgrounds/background_volunteering.png") no-repeat;
+  background-position: center center;
+  height: 601px;
+}
+.form-volunteering_button-box {
+  width: 602px;
+  display: flex;
+  justify-content: end;
+}
+.form-volunteering_button {
+  background: none;
+  margin-top: 16px;
+  margin-right: 18px;
+  border: none;
+  cursor: pointer;
+}
+.form-volunteering_main {
+  margin-top: 4px;
+}
+.form-volunteering_title {
+  font-size: 40px;
+  line-height: 55px;
+  text-align: center;
+  margin-bottom: 55px;
+}
+.form-volunteering_input-box input:focus {
+  background: #DE3891;
+  color: #FFFFFF;
+  outline: 0;
+  outline-offset: 0;
+}
+.form-volunteering_input-box input:focus::-moz-placeholder {
+  color: #FFFFFF;
+}
+.form-volunteering_input-box input:focus::placeholder {
+  color: #FFFFFF;
+}
+.form-volunteering_input-box {
+  text-align: center;
+}
+.form-volunteering_link {
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .intro_button, .section-two_button, .section-three_button, .section-four_button, .section-help_button, .section-reports_button, .section-reports_button-two, .section-miracle-paws_button, .section-miracle-paws_button-two, .section-card-pets_button {
+    padding: 24px 45px;
+  }
+  .intro_link, .section-two_link, .section-three_link, .section-four_link, .section-help_link, .section-reports_link, .section-miracle-paws_link, .section-miracle-paws_link-two, .section-card-pets_link, .form-registr_link, .form-authorization_link, .form-adoption_link, .form-volunteering_link {
+    font-size: 20px;
+    line-height: 17px;
+  }
+  .intro_title, .graduates-box_title, .section-faq_title, .section-help_title, .section-contacts_title, .section-miracle-paws_title, .section-profile_title, .form-registr_title, .form-authorization_title, .form-adoption_title, .form-volunteering_title {
+    font-size: 50px;
+    line-height: 70px;
+  }
+  .section-faq_name, .section-faq_name-two, .section-help_requisites-title, .section-ways-help_title, .section-current-needs_title, .section-reports_title, .section-routes_title, .section-card-pets_title {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  .section-one_title, .section-two_title, .section-three_title, .section-four_title, .section-five_title {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .form-registr_input-box input, .form-authorization_input-box input, .form-adoption_input-box input, .form-adoption_input-box textarea, .form-volunteering_input-box input {
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+  }
+  .form-registr_button-registr, .form-authorization_button-authorization, .form-adoption_button-adoption, .form-volunteering_button-volunteering {
+    width: 335px;
+    margin: 15px auto 15px auto;
+  }
+  .form-registr_autoriz, .form-authorization_registr {
+    font-size: 13px;
+  }
+  .form-registr_block, .form-authorization_block, .form-adoption_block, .form-volunteering_block {
+    width: 520px;
+  }
+  .volunteers-box_text, #modal-message p, .section-one_text, .section-two_text, .section-three_description, .section-four_text, .footer_section-link, .footer_section-text, .graduates-box_description, .section-faq_answer, .section-help_card-number, .section-ways-help_description-way, .section-current-needs_text, .section-current-needs_list-product, .section-reports_text, .section-contacts_contact-text, .section-contacts_time-work, .section-routes_text, .section-miracle-paws_filter-text, .section-miracle-paws_number, .section-miracle-paws_range, .section-miracle-paws_label, .section-miracle-paws_description, .section-profile_data-text, .section-profile_information-text, .section-profile_animals-data, .section-card-pets_data-text, .section-card-pets_description-text {
+    font-size: 16px;
+    line-height: 142%;
+  }
+  .volunteers-box_title, .error, .create-table_link, .create-table_button, .create-table_label, .table_name-row, .section-admin_table-title, .section-admin_requests-title, .main-menu_link, .section-three_name, .section-four_name-method, .section-five_name-new, .graduates-box_name, .section-faq_question, .section-help_choice, .section-ways-help_name-way, .section-current-needs_name, .section-contacts_contact-title, .section-routes_name, .section-miracle-paws_parameter-name, .section-miracle-paws_name, .section-profile_data-title, .section-profile_information-title, .section-card-pets_data-title {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .container {
+    max-width: 650px;
+  }
+  .container-main {
+    width: 100%;
+    height: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  .main-menu_icon img {
+    width: 22px;
+    height: 32px;
+  }
+  .main-menu_logo img {
+    width: 58px;
+    height: 54px;
+  }
+  .main-menu_wr {
+    width: 480px;
+  }
+  .intro {
+    display: flex;
+    justify-content: space-between;
+  }
+  .intro_box {
+    margin-top: 226px;
+    margin-left: 150px;
+    margin-bottom: 220px;
+  }
+  .intro_text {
+    font-size: 18px;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+  .intro_image-box {
+    display: none;
+  }
+  .section-one {
+    margin-bottom: 115px;
+  }
+  .section-one_about-us-box {
+    margin-top: 85px;
+    margin-left: 150px;
+  }
+  .section-one_text {
+    width: 510px;
+  }
+  .section-one_image-box {
+    display: none;
+  }
+  .section-two_main-box {
+    justify-content: flex-end;
+  }
+  .section-two_image-box {
+    display: none;
+  }
+  .section-two_text {
+    width: 510px;
+    margin-top: 41px;
+    margin-bottom: 39px;
+  }
+  .section-two_mission-box {
+    margin-right: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .section-three {
+    margin-top: 100px;
+    margin-bottom: 130px;
+  }
+  .section-three_slide {
+    margin-left: 30px;
+  }
+  .section-three_title {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  .section-three_name {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .section-three_container {
+    max-width: 600px;
+  }
+  .section-three_arrow-box {
+    max-width: 700px;
+  }
+  .section-three_wrapper {
+    width: 2170px;
+  }
+  .section-four_image-box {
+    display: none;
+  }
+  .section-four_text {
+    width: 500px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  .section-four_help-box {
+    margin-left: 150px;
+  }
+  .section-four_method {
+    width: 235px;
+    height: 148px;
+  }
+  .section-four_name-method {
+    font-size: 14px;
+    padding-top: 30px;
+  }
+  .section-four_description-method {
+    font-size: 12px;
+    width: 198px;
+  }
+  .section-four_methods-box {
+    max-width: 510px;
+  }
+  .section-four_button-box {
+    width: 488px;
+  }
+  .section-five {
+    margin-top: 100px;
+    margin-bottom: 150px;
+  }
+  .section-five_name-new {
+    font-size: 20px;
+  }
+  .section-five_description-new {
+    font-size: 17px;
+  }
+  .section-five_data-new {
+    font-size: 15px;
+  }
+  .section-five_new-box {
+    width: 600px;
+    height: 447px;
+  }
+  .section-five_new {
+    padding: 0 69px;
+  }
+  .section-five_image {
+    display: none;
+  }
+  .section-five_image-two {
+    display: none;
+  }
+  .section-five_title {
+    margin-bottom: 70px;
+  }
+  .footer_box {
+    padding: 56px 0 115px 150px;
+  }
+  .footer_section-title {
+    font-size: 20px;
+  }
+  .footer_menu-box {
+    max-width: 480px;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  .footer_sections {
+    margin: 0 0 0 75px;
+  }
+  .footer_section:nth-child(3) {
+    margin-top: 20px;
+  }
+  .section-graduates {
+    margin-top: -700px;
+  }
+  .graduates-box_title {
+    text-align: center;
+    margin: 60px 0 105px 0;
+  }
+  .graduates-box_cards {
+    justify-content: center;
+    margin-bottom: 200px;
+  }
+  .graduates-box_name {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .section-faq {
+    margin-top: -700px;
+    margin-bottom: 100px;
+  }
+  .section-faq_title {
+    margin: 60px 0 105px 0;
+  }
+  .section-faq_box {
+    display: inline;
+  }
+  .section-faq_name {
+    width: 305px;
+    margin-bottom: 35px;
+  }
+  .section-faq_name-two {
+    width: 185px;
+    margin-bottom: 35px;
+  }
+  .section-faq_name-box {
+    margin-right: 124px;
+  }
+  .section-faq_question-box {
+    width: 650px;
+    height: 75px;
+  }
+  .section-help {
+    position: relative;
+    margin-top: -700px;
+  }
+  .section-help_title {
+    margin: 60px 0 105px 0;
+  }
+  .section-help_card-box {
+    width: 500px;
+    height: 125px;
+  }
+  .section-help_requisites-box {
+    margin-bottom: 100px;
+  }
+  .section-ways-help_name-way {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .section-ways-help_way {
+    padding: 0 33px;
+  }
+  .section-ways-help_image {
+    border-radius: 20px 0 0 20px;
+  }
+  .section-ways-help_ways-box {
+    margin: 60px 0 100px 0;
+  }
+  .section-current-needs_text {
+    width: 630px;
+    margin: 22px auto;
+  }
+  .section-current-needs_name {
+    font-size: 16px;
+  }
+  .section-current-needs_list-product {
+    font-size: 14px;
+    line-height: 148%;
+  }
+  .section-current-needs_need_box {
+    width: 316px;
+    margin-bottom: 20px;
+  }
+  .section-current-needs_need-boxx {
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .section-reports {
+    margin-top: 60px;
+    margin-bottom: 100px;
+  }
+  .section-reports_box {
+    display: inline;
+  }
+  .section-reports_title {
+    text-align: center;
+  }
+  .section-reports_text {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .section-reports_button-box {
+    margin: 40px auto 0 auto;
+  }
+  .section-contacts {
+    margin-top: -700px;
+  }
+  .section-contacts_title {
+    margin: 60px 0 105px 0;
+  }
+  .section-contacts_contact {
+    width: 620px;
+    margin-bottom: 40px;
+  }
+  .section-contacts_contact-title {
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .section-contacts_contact-box {
+    display: grid;
+    justify-content: center;
+  }
+  .section-routes {
+    margin: 80px auto 125px auto;
+  }
+  .section-routes_title {
+    margin-bottom: 65px;
+  }
+  .section-routes_route {
+    margin-bottom: 50px;
+  }
+  .section-routes_name {
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .section-routes_route-box {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .section-miracle-paws {
+    margin: 0 auto 125px auto;
+    margin-top: -700px;
+  }
+  .section-miracle-paws_title {
+    margin: 60px 0 105px 0;
+  }
+  .section-miracle-paws_filter-box {
+    margin: 0 auto 70px auto;
+  }
+  .section-miracle-paws_parameter-name {
+    font-size: 14px;
+  }
+  .section-miracle-paws_link-two {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .section-miracle-paws_slide {
+    margin-right: 0;
+  }
+  .section-miracle-paws_name {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .section-miracle-paws_katalog-pets {
+    width: 600px;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  .section-miracle-paws_box {
+    display: inline;
+  }
+  .section-profile {
+    margin: 0 auto 125px auto;
+    margin-top: -700px;
+  }
+  .section-profile_title {
+    margin: 60px 0 105px 0;
+  }
+  .section-profile_image {
+    width: 200px;
+    height: 200px;
+    margin: 45px auto 45px auto;
+  }
+  .section-profile_personal-data-box {
+    width: 480px;
+    height: 580px;
+    margin: 0 auto 50px auto;
+  }
+  .section-profile_data {
+    margin-top: 20px;
+  }
+  .section-profile_data-title {
+    font-size: 18px;
+    margin-right: 30px;
+  }
+  .section-profile_personal-data {
+    text-align: center;
+  }
+  .section-profile_additional-information-box {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .section-profile_additional-information-title {
+    font-size: 22px;
+  }
+  .section-profile_information-box {
+    margin: 39px 0 0 74px;
+  }
+  .section-profile_information-title {
+    font-size: 16px;
+  }
+  .section-profile_information {
+    margin-top: 20px;
+  }
+  .section-profile_box {
+    display: inline;
+  }
+  .section-profile_adopted-animals-box, .section-profile_submitted-applications-box {
+    width: 600px;
+    margin: 38px auto;
+  }
+  .section-profile_adopted-animals-title, .section-profile_submitted-applications-title {
+    font-size: 22px;
+  }
+  .section-profile_animals-data {
+    font-size: 18px;
+  }
+  .section-card-pets {
+    margin: 60px auto 125px auto;
+  }
+  .section-card-pets_slider {
+    margin: 0 auto 30px auto;
+  }
+  .section-card-pets_img {
+    width: 565px;
+    height: auto;
+  }
+  .section-card-pets_box {
+    display: inline;
+  }
+  .section-card-pets_parameters-box {
+    margin-left: 0px;
+  }
+  .section-card-pets_title {
+    font-size: 40px;
+    line-height: 63px;
+    text-align: center;
+  }
+  .section-card-pets_data {
+    margin-bottom: 20px;
+  }
+  .section-card-pets_data-title {
+    font-size: 20px;
+    line-height: 27px;
+    margin-right: 24px;
+  }
+  .section-card-pets_parameters {
+    margin: 40px 0 50px 180px;
+  }
+  .section-card-pets_button {
+    margin: 0 auto;
+  }
+  .section-card-pets_description-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .section-card-pets_description-text {
+    text-align: center;
+    width: 560px;
+    margin: 0 auto;
+  }
+  .form-registr_block {
+    height: 700px;
+  }
+  .form-registr_button-box {
+    width: 520px;
+  }
+  .form-registr_title {
+    font-size: 34px;
+    margin-bottom: 35px;
+  }
+  .form-registr_link {
+    font-size: 15px;
+  }
+  .form-registr_button {
+    margin-top: 12px;
+  }
+  .form-registr_button img {
+    width: 17px;
+    height: 17px;
+  }
+  ::-moz-placeholder {
+    font-size: 15px;
+  }
+  ::placeholder {
+    font-size: 15px;
+  }
+  .form-authorization_block {
+    height: 430px;
+  }
+  .form-authorization_button-box {
+    width: 520px;
+  }
+  .form-authorization_button {
+    margin-top: 12px;
+  }
+  .form-authorization_title {
+    font-size: 34px;
+    margin-bottom: 35px;
+  }
+  .form-authorization_link {
+    font-size: 15px;
+  }
+  .form-authorization_button img {
+    width: 17px;
+    height: 17px;
+  }
+  .form-adoption_block {
+    height: 650px;
+  }
+  .form-adoption_button-box {
+    width: 520px;
+  }
+  .form-adoption_button {
+    margin-top: 12px;
+  }
+  .form-adoption_title {
+    font-size: 34px;
+    margin-bottom: 35px;
+  }
+  .form-adoption_link {
+    font-size: 15px;
+  }
+  .form-adoption_input-box textarea {
+    height: 70px;
+  }
+  .form-adoption_button img {
+    width: 17px;
+    height: 17px;
+  }
+  .form-volunteering_block {
+    height: 550px;
+  }
+  .form-volunteering_button-box {
+    width: 520px;
+  }
+  .form-volunteering_button {
+    margin-top: 12px;
+  }
+  .form-volunteering_title {
+    font-size: 34px;
+    margin-bottom: 35px;
+  }
+  .form-volunteering_link {
+    font-size: 15px;
+  }
+  .form-volunteering_button img {
+    width: 17px;
+    height: 17px;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .intro_button, .section-two_button, .section-three_button, .section-four_button, .section-help_button, .section-reports_button, .section-reports_button-two, .section-miracle-paws_button, .section-miracle-paws_button-two, .section-card-pets_button {
+    padding: 17px 40px;
+  }
+  .intro_link, .section-two_link, .section-three_link, .section-four_link, .section-help_link, .section-reports_link, .section-miracle-paws_link, .section-miracle-paws_link-two, .section-card-pets_link, .form-registr_link, .form-authorization_link, .form-adoption_link, .form-volunteering_link {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .intro_title, .graduates-box_title, .section-faq_title, .section-help_title, .section-contacts_title, .section-miracle-paws_title, .section-profile_title, .form-registr_title, .form-authorization_title, .form-adoption_title, .form-volunteering_title {
+    font-size: 35px;
+    line-height: 55px;
+  }
+  .section-faq_name, .section-faq_name-two, .section-help_requisites-title, .section-ways-help_title, .section-current-needs_title, .section-reports_title, .section-routes_title, .section-card-pets_title {
+    font-size: 26px;
+    line-height: 44px;
+  }
+  .section-one_title, .section-two_title, .section-three_title, .section-four_title, .section-five_title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .form-registr_input-box input, .form-authorization_input-box input, .form-adoption_input-box input, .form-adoption_input-box textarea, .form-volunteering_input-box input {
+    width: 250px;
+    height: 40px;
+    font-size: 13px;
+  }
+  .form-registr_button-registr, .form-authorization_button-authorization, .form-adoption_button-adoption, .form-volunteering_button-volunteering {
+    width: 285px;
+    margin: 10px auto 10px auto;
+    padding: 15px 96px;
+  }
+  .form-registr_autoriz, .form-authorization_registr {
+    font-size: 13px;
+  }
+  .form-registr_block, .form-authorization_block, .form-adoption_block, .form-volunteering_block {
+    width: 420px;
+  }
+  .volunteers-box_text, #modal-message p, .section-one_text, .section-two_text, .section-three_description, .section-four_text, .footer_section-link, .footer_section-text, .graduates-box_description, .section-faq_answer, .section-help_card-number, .section-ways-help_description-way, .section-current-needs_text, .section-current-needs_list-product, .section-reports_text, .section-contacts_contact-text, .section-contacts_time-work, .section-routes_text, .section-miracle-paws_filter-text, .section-miracle-paws_number, .section-miracle-paws_range, .section-miracle-paws_label, .section-miracle-paws_description, .section-profile_data-text, .section-profile_information-text, .section-profile_animals-data, .section-card-pets_data-text, .section-card-pets_description-text {
+    font-size: 14px;
+    line-height: 142%;
+  }
+  .volunteers-box_title, .error, .create-table_link, .create-table_button, .create-table_label, .table_name-row, .section-admin_table-title, .section-admin_requests-title, .main-menu_link, .section-three_name, .section-four_name-method, .section-five_name-new, .graduates-box_name, .section-faq_question, .section-help_choice, .section-ways-help_name-way, .section-current-needs_name, .section-contacts_contact-title, .section-routes_name, .section-miracle-paws_parameter-name, .section-miracle-paws_name, .section-profile_data-title, .section-profile_information-title, .section-card-pets_data-title {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .container {
+    max-width: 400px;
+  }
+  .container-main {
+    width: 100%;
+    height: 100%;
+    max-width: 767px;
+    margin: 0 auto;
+  }
+  .main-menu {
+    margin-top: 20px;
+  }
+  .main-menu_wr {
+    width: 200px;
+    display: inline;
+    text-align: center;
+  }
+  .main-menu_icon img {
+    width: 16px;
+    height: 26px;
+  }
+  .main-menu_logo img {
+    width: 50px;
+    height: 46px;
+  }
+  .intro_box {
+    margin: 150px auto 200px auto;
+  }
+  .intro_text {
+    font-size: 16px;
+    width: 350px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 25px;
+  }
+  .intro_image-box {
+    display: none;
+  }
+  .intro_title {
+    width: 343px;
+    text-align: center;
+  }
+  .intro_button {
+    margin: 0 auto;
+  }
+  .section-one {
+    margin-bottom: 0px;
+  }
+  .section-one_about-us-box {
+    margin: 55px auto 80px auto;
+  }
+  .section-one_text {
+    width: 350px;
+    text-align: center;
+    margin-top: 25px;
+  }
+  .section-one_image-box {
+    display: none;
+  }
+  .section-one_title {
+    text-align: center;
+  }
+  .section-two_main-box {
+    justify-content: center;
+  }
+  .section-two_image-box {
+    display: none;
+  }
+  .section-two_text {
+    width: 350px;
+    margin-top: 41px;
+    margin-bottom: 39px;
+    text-align: center;
+  }
+  .section-two_title {
+    text-align: center;
+  }
+  .section-two_mission-box {
+    margin: 95px auto 90px auto;
+  }
+  .section-two_button {
+    float: none;
+    margin: 0 auto;
+  }
+  .section-three {
+    margin-top: 70px;
+    margin-bottom: 100px;
+  }
+  .section-three_slide {
+    margin-left: 30px;
+  }
+  .section-three_title {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .section-three_name {
+    font-size: 19px;
+    line-height: 25px;
+  }
+  .section-three_container {
+    max-width: 300px;
+  }
+  .section-three_arrow-box {
+    max-width: 420px;
+  }
+  .section-three_wrapper {
+    width: 2170px;
+  }
+  .section-three_button-l img {
+    width: 34px;
+    height: 34px;
+  }
+  .section-three_button-r img {
+    width: 34px;
+    height: 34px;
+  }
+  .section-three_button-r, .section-three_button-l {
+    width: 34px;
+    height: 34px;
+  }
+  .section-three_button {
+    margin: 30px auto 0 auto;
+  }
+  .section-four_image-box {
+    display: none;
+  }
+  .section-four_text {
+    width: 350px;
+    text-align: center;
+    margin: 30px auto 35px auto;
+  }
+  .section-four_title {
+    text-align: center;
+  }
+  .section-four_help-box {
+    margin: 95px auto 90px auto;
+  }
+  .section-four_method {
+    width: 235px;
+    height: 148px;
+    margin: 0 auto 18px auto;
+  }
+  .section-four_name-method {
+    font-size: 14px;
+    padding-top: 30px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .section-four_description-method {
+    font-size: 12px;
+    width: 198px;
+    padding-left: 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .section-four_methods-box {
+    max-width: 350px;
+    justify-content: center;
+  }
+  .section-four_button-box {
+    width: 350px;
+  }
+  .section-five {
+    margin-top: 60px;
+    margin-bottom: 100px;
+  }
+  .section-five_name-new {
+    font-size: 16px;
+    width: 300px;
+  }
+  .section-five_description-new {
+    font-size: 14px;
+    width: 370px;
+  }
+  .section-five_data-new {
+    font-size: 12px;
+  }
+  .section-five_new-box {
+    width: 440px;
+    height: 335px;
+  }
+  .section-five_new {
+    padding: 0 35px;
+  }
+  .section-five_image {
+    display: none;
+  }
+  .section-five_image-two {
+    display: none;
+  }
+  .section-five_title {
+    margin-bottom: 40px;
+  }
+  .section-five_new-box:nth-child(1) {
+    margin-bottom: 29px;
+  }
+  .footer_box {
+    padding: 30px 0 60px 60px;
+  }
+  .footer_section-title {
+    font-size: 18px;
+  }
+  .footer_menu-box {
+    max-width: 480px;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  .footer_sections {
+    margin: 0 0 0 75px;
+  }
+  .footer_logo-box img {
+    width: 70px;
+    height: 67px;
+  }
+  .footer_logo-box {
+    margin-bottom: 40px;
+  }
+  .footer_section-list {
+    list-style-type: none;
+    margin-bottom: 10px;
+    width: 120px;
+  }
+  .footer_section-text {
+    width: 155px;
+    margin-bottom: 10px;
+  }
+  .footer_social-box {
+    margin-top: 0px;
+  }
+  .footer_tg img {
+    width: 40px;
+    height: 36px;
+  }
+  .footer_wts img {
+    width: 32px;
+    height: 32px;
+  }
+  .footer_yt img {
+    width: 42px;
+    height: 31px;
+  }
+  .footer_section:nth-child(3) {
+    margin-top: 10px;
+  }
+  .footer_social-img:nth-child(2) {
+    margin: 0 17px;
+  }
+  .section-graduates {
+    margin-top: -700px;
+  }
+  .graduates-box_title {
+    text-align: center;
+    margin: 60px 0 70px 0;
+  }
+  .graduates-box_cards {
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+  .graduates-box_name {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .graduates-box_slide {
+    margin-right: 0px;
+    margin-bottom: 25px;
+  }
+  .section-faq {
+    margin-top: -700px;
+    margin-bottom: 80px;
+  }
+  .section-faq_title {
+    margin: 60px 0 75px 0;
+  }
+  .section-faq_box {
+    display: inline;
+  }
+  .section-faq_name {
+    width: 248px;
+    margin-bottom: 25px;
+  }
+  .section-faq_name-two {
+    width: 151px;
+    margin-bottom: 25px;
+  }
+  .section-faq_name-box {
+    margin: 0 AUTO;
+    display: flex;
+    justify-content: center;
+  }
+  .section-faq_name-box-two {
+    margin: 0 AUTO;
+    display: flex;
+    justify-content: center;
+  }
+  .section-faq_question-box {
+    width: 405px;
+    height: 70px;
+  }
+  .section-faq_question {
+    margin-left: 35px;
+  }
+  .section-faq_arrow {
+    margin-right: 35px;
+    width: 22px;
+    height: 10px;
+  }
+  .section-help {
+    margin-top: -700px;
+  }
+  .section-help_title {
+    margin: 60px 0 75px 0;
+  }
+  .section-help_card-box {
+    width: 360px;
+    height: 100px;
+    margin: 30px auto 15px auto;
+  }
+  .section-help_requisites-box {
+    margin-bottom: 70px;
+  }
+  .section-help_button {
+    margin: 15px auto 0 auto;
+  }
+  .section-help_card-number {
+    width: 300px;
+  }
+  .section-ways-help_name-way {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .section-ways-help_way {
+    padding: 0 45px;
+  }
+  .section-ways-help_image {
+    border-radius: 20px 0 0 20px;
+  }
+  .section-ways-help_ways-box {
+    margin: 40px 0 60px 0;
+  }
+  .section-ways-help_way-box img {
+    display: none;
+  }
+  .section-ways-help_way-box {
+    width: 400px;
+    height: 250px;
+    margin-bottom: 20px;
+  }
+  .section-current-needs_text {
+    width: 370px;
+    margin: 17px auto;
+  }
+  .section-current-needs_name {
+    font-size: 16px;
+  }
+  .section-current-needs_list-product {
+    font-size: 14px;
+    line-height: 148%;
+  }
+  .section-current-needs_need_box {
+    width: 335px;
+    margin-bottom: 15px;
+  }
+  .section-current-needs_need-boxx {
+    margin-bottom: 15px;
+    justify-content: center;
+  }
+  .section-current-needs_title {
+    margin-top: 60px;
+  }
+  .section-current-needs_needs-box {
+    justify-content: center;
+    margin-bottom: 75px;
+  }
+  .section-reports {
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+  .section-reports_box {
+    display: inline;
+  }
+  .section-reports_title {
+    text-align: center;
+    width: 350px;
+    margin: 0 auto 19px auto;
+  }
+  .section-reports_text {
+    text-align: center;
+    width: 370px;
+    margin: 0 auto;
+  }
+  .section-reports_button-box {
+    margin: 30px auto 0 auto;
+  }
+  .section-reports_button {
+    margin: 0 auto 20px auto;
+  }
+  .section-contacts {
+    margin-top: -700px;
+  }
+  .section-contacts_title {
+    margin: 60px 0 75px 0;
+  }
+  .section-contacts_contact {
+    width: 400px;
+    height: 290px;
+    margin-bottom: 25px;
+  }
+  .section-contacts_contact-title {
+    font-size: 20px;
+    line-height: 15px;
+  }
+  .section-contacts_contact-box {
+    display: grid;
+    justify-content: center;
+  }
+  .section-contacts_contact-text {
+    width: 330px;
+    margin: 15px auto 0 auto;
+  }
+  .section-contacts_social-network-box {
+    width: 270px;
+    margin: 20px auto 0 auto;
+  }
+  .section-contacts_wts img {
+    width: 30px;
+    height: 30px;
+  }
+  .section-contacts_tg img {
+    width: 36px;
+    height: 32px;
+  }
+  .section-contacts_social-network-name {
+    font-size: 12px;
+  }
+  .section-contacts_social-network {
+    width: 110px;
+  }
+  .section-routes {
+    margin: 60px auto 75px auto;
+  }
+  .section-routes_title {
+    margin-bottom: 45px;
+  }
+  .section-routes_route {
+    margin-bottom: 40px;
+  }
+  .section-routes_name {
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .section-routes_route-box {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .section-routes_text {
+    width: 350px;
+  }
+  .section-miracle-paws {
+    margin: 0 auto 85px auto;
+    margin-top: -700px;
+  }
+  .section-miracle-paws_title {
+    margin: 60px 0 70px 0;
+  }
+  .section-miracle-paws_filter-box {
+    margin: 0 auto 70px auto;
+    width: 400px;
+    height: 600px;
+  }
+  .section-miracle-paws_filter-title {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .section-miracle-paws_filter-text {
+    width: 300px;
+  }
+  .section-miracle-paws_parameter-name {
+    font-size: 14px;
+    margin: 20px auto 17px auto;
+  }
+  .section-miracle-paws_button {
+    margin: 20px auto 20px auto;
+  }
+  .section-miracle-paws_link-two {
+    font-size: 13px;
+    line-height: 10px;
+  }
+  .section-miracle-paws_slide {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .section-miracle-paws_name {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .section-miracle-paws_katalog-pets {
+    width: 300px;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  .section-miracle-paws_box {
+    display: inline;
+  }
+  .section-profile {
+    margin: 0 auto 85px auto;
+    margin-top: -700px;
+  }
+  .section-profile_title {
+    margin: 60px 0 70px 0;
+  }
+  .section-profile_image {
+    width: 150px;
+    height: 150px;
+    margin: 35px auto 35px auto;
+  }
+  .section-profile_personal-data-box {
+    width: 400px;
+    height: 475px;
+    margin: 0 auto 30px auto;
+  }
+  .section-profile_data {
+    margin-top: 15px;
+  }
+  .section-profile_data-title {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+  .section-profile_personal-data {
+    text-align: center;
+  }
+  .section-profile_data-box {
+    width: 300px;
+  }
+  .section-profile_additional-information-box {
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 45px;
+  }
+  .section-profile_additional-information-title {
+    font-size: 20px;
+  }
+  .section-profile_information-box {
+    margin: 25px 0 0 50px;
+  }
+  .section-profile_information-title {
+    font-size: 14px;
+  }
+  .section-profile_information {
+    margin-top: 15px;
+  }
+  .section-profile_box {
+    display: inline;
+  }
+  .section-profile_adopted-animals-box, .section-profile_submitted-applications-box {
+    width: 400px;
+    margin: 30px auto;
+  }
+  .section-profile_adopted-animals-title, .section-profile_submitted-applications-title {
+    font-size: 20px;
+  }
+  .section-profile_animals-data {
+    font-size: 16px;
+  }
+  .section-profile_information-text {
+    margin-top: 10px;
+  }
+  .section-profile_animals-box {
+    margin-top: 25px;
+    margin-left: 70px;
+  }
+  .section-card-pets {
+    margin: 60px auto 85px auto;
+  }
+  .section-card-pets_slider {
+    margin: 0 auto 20px auto;
+    width: 400px;
+    height: 400px;
+  }
+  .section-card-pets_img {
+    width: 565px;
+    height: auto;
+  }
+  .section-card-pets_box {
+    display: inline;
+  }
+  .section-card-pets_parameters-box {
+    margin-left: 0px;
+  }
+  .section-card-pets_title {
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+  }
+  .section-card-pets_data {
+    margin-bottom: 15px;
+  }
+  .section-card-pets_data-title {
+    font-size: 18px;
+    line-height: 27px;
+    margin-right: 20px;
+  }
+  .section-card-pets_parameters {
+    margin: 25px 0 30px 70px;
+  }
+  .section-card-pets_button {
+    margin: 0 auto;
+  }
+  .section-card-pets_description-title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  .section-card-pets_description-text {
+    text-align: center;
+    width: 370px;
+    margin: 0 auto;
+  }
+  .section-card-pets_scroll {
+    width: 350px;
+    margin: -360px auto 0 auto;
+  }
+  .section-card-pets_description-box {
+    margin-top: 50px;
+  }
+  .form-registr_block {
+    height: 580px;
+  }
+  .form-registr_button-box {
+    width: 420px;
+  }
+  .form-registr_title {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+  .form-registr_link {
+    font-size: 13px;
+  }
+  .form-registr_button {
+    margin-top: 12px;
+  }
+  .form-registr_button img {
+    width: 13px;
+    height: 13px;
+  }
+  .form-registr_autoriz {
+    font-size: 12px;
+  }
+  ::-moz-placeholder {
+    font-size: 13px;
+  }
+  ::placeholder {
+    font-size: 13px;
+  }
+  .form-authorization_block {
+    height: 360px;
+  }
+  .form-authorization_button-box {
+    width: 420px;
+  }
+  .form-authorization_button {
+    margin-top: 12px;
+  }
+  .form-authorization_title {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+  .form-authorization_link {
+    font-size: 13px;
+  }
+  .form-authorization_button img {
+    width: 13px;
+    height: 13px;
+  }
+  .form-authorization_registr {
+    font-size: 12px;
+  }
+  .form-adoption_block {
+    height: 540px;
+  }
+  .form-adoption_button-box {
+    width: 420px;
+  }
+  .form-adoption_button {
+    margin-top: 12px;
+  }
+  .form-adoption_title {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+  .form-adoption_link {
+    font-size: 13px;
+  }
+  .form-adoption_input-box textarea {
+    height: 50px;
+  }
+  .form-adoption_button img {
+    width: 13px;
+    height: 13px;
+  }
+  .form-volunteering_block {
+    height: 450px;
+  }
+  .form-volunteering_button-box {
+    width: 420px;
+  }
+  .form-volunteering_button {
+    margin-top: 12px;
+  }
+  .form-volunteering_title {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+  .form-volunteering_link {
+    font-size: 13px;
+  }
+  .form-volunteering_button img {
+    width: 13px;
+    height: 13px;
+  }
+}
+#modal-message p {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+#message-box {
+  display: none;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.section-admin {
+  position: relative;
+  margin-top: -650px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.section-admin_requests-box {
+  margin-bottom: 26px;
+}
+.section-admin_requests-title {
+  margin-bottom: 31px;
+}
+.section-admin_requests-button-box {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  width: 946px;
+}
+.section-admin_requests-button {
+  background-color: #DE3891;
+  padding: 14px 32px;
+  font-family: "Manrope extrabold";
+  font-weight: 800;
+  font-size: 22px;
+  color: #FFFFFF;
+  border: none;
+  margin-right: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.section-admin_table-box {
+  margin-bottom: 22px;
+}
+.section-admin_table-title {
+  margin-bottom: 31px;
+}
+.section-admin_table-button-box {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  width: 798px;
+}
+.section-admin_table-button {
+  background: none;
+  border: none;
+  font-family: "Manrope semibold";
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.admin-box {
+  display: flex;
+  align-items: center;
+  width: 387px;
+  justify-content: space-between;
+}
+
+.error {
+  position: absolute;
+}
+
+.table_box {
+  width: 946px;
+}
+.table_boxx {
+  width: 946px;
+}
+.table_div {
+  border: 2px solid black;
+  width: 946px;
+}
+.table_name-row {
+  font-size: 18px;
+}
+.table_main-row {
+  font-family: "Exo2 regular";
+  font-weight: 400;
+  font-size: 16px;
+}
+.table_div-main {
+  height: 47px;
+  text-align: center;
+}
+.table_title-table {
+  font-family: "Manrope extrabold";
+  font-weight: 800;
+  font-size: 24px;
+}
+.table_name-box {
+  width: 946px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 19px;
+}
+.table_row {
+  height: 47px;
+  text-align: center;
+}
+.table_id {
+  width: 57px;
+}
+.table_img {
+  margin-right: 10px;
+}
+
+.create-table {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.create-table_form {
+  display: grid;
+}
+.create-table_label {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.create-table_button {
+  width: 300px;
+  height: 50px;
+  border: none;
+  background-color: #DE3891;
+  font-size: 18px;
+  color: #FFFFFF;
+  border-radius: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.create-table_input {
+  width: 300px;
+  height: 47px;
+  border: 2px solid black;
+  font-family: "Exo2 regular";
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+.create-table_link {
+  font-size: 18px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-left: 115px;
+}
+
+.error {
+  font-size: 14px;
+  color: #DE3891;
+}
+
+.r {
+  margin-left: 65px;
+  margin-top: 15px;
+}
+
+.active_link {
+  color: #DE3891;
+}
+
+.sect-ad {
+  display: block;
+}
+
+.table-name-box-two {
+  width: 1570px;
+}
+
+.table-div-two {
+  width: 1570px;
+}
+
+.table-main-box-two {
+  width: 1570px;
+}
+
+.fot {
+  margin-bottom: 15px;
+  padding: 0 10px;
+  width: 280px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.volunteers-box_title {
+  margin-bottom: 30px;
+}
+.volunteers-box_boxx {
+  background-color: #FFFFFF;
+  box-shadow: 0px 9px 17px rgba(0, 0, 0, 0.15);
+  width: 220px;
+  height: 340px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+.volunteers-box_boxxx {
+  text-align: center;
+}
+.volunteers-box_img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+.volunteers-box_box-v {
+  display: flex;
+  width: 946px;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.kinship-text {
+  width: 260px;
+  margin: 30px auto;
+  font-family: "Exo2 regular";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 148%;
+  color: #DE3891;
+  text-align: center;
+}
+
+.link-update {
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 20px;
+  justify-content: center;
+  display: flex;
+  font-size: 15px;
+}
+
+.submitted-applications-box {
+  width: 680px;
+}
+
+.div-center-profile {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
